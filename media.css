@@ -1,7 +1,5 @@
 @media screen and (max-width:1156px) {
-    body{
-        background-color: yellow;
-    }
+ 
     
 .form h1 {
     text-align: center;
@@ -26,9 +24,7 @@
 }
 
 @media screen and (max-width:674px) {
-    body{
-        background-color: beige;
-    }
+  
     .right-side{
         display: none;
         width: 0vw;
@@ -63,9 +59,7 @@
 
 
 @media screen and (max-width:430px) {
-    body{
-        background-color: lightcyan;
-    }
+    
     .right-side{
         display: none;
         width: 0vw;
@@ -117,9 +111,7 @@
 }
 
 @media screen and (max-width:375px) {
-    body{
-        background-color: lightcyan;
-    }
+    
     .right-side{
         display: none;
         width: 0vw;
