@@ -3,7 +3,7 @@
     
 .form h1 {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     
 }
 .nav-signin1 {
@@ -18,7 +18,8 @@
 
 }
 .form{
-    margin:60px 20px;
+    margin:10px 10px;
+    padding: 40px 20px;
 }
 
 }
@@ -52,9 +53,12 @@
 
 }
 .form{
-    margin:60px 20px;
+    margin:30px 20px;
 }
 
+}
+.copyright{
+    margin-top: 60px;
 }
 
 
@@ -101,11 +105,12 @@
 
 }
 .form{
-    margin:65px 15px 0px 20px;
+    margin:40px 15px 0px 20px;
+    padding: 30px 20px;
    
 }
 .copyright{
-    margin-top: 90px;
+    margin-top: 60px;
     font-size: 0.8rem;
 }
 }
@@ -138,7 +143,7 @@
     
 .form h1 {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     
 }
 .nav-signin1 {
@@ -146,18 +151,75 @@
 }
 
 #para1{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .forgot p{
-    font-size: 1rem;
+    font-size: 0.7rem;
 
 }
 .form{
-    margin:65px 10px 0px 20px;
+    margin:45px 20px 15px 20px;
+    padding: 25px 10px;
+    gap: 10px;
 }
 .copyright{
-    margin-top: 50px;
+    margin-top:90px;
+    font-size: 0.8rem;
+}
+}
+
+@media screen and (max-width:320px) {
+    
+    .right-side{
+        display: none;
+        width: 0vw;
+        height: 0vh;
+    }
+    .left-side{
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .nav-logo img{
+        animation: faderight 0.5s;
+        margin: 10px 0 0 0;
+        width: 180px;
+        
+    }
+    .nav-signin2 button {
+      
+        font-size: 0.8rem;
+        color: var(--green);
+
+    }
+
+    
+.form h1 {
+    text-align: center;
+    
+    font-size: 1.6rem;
+    
+}
+.nav-signin1 {
+    display: none;
+}
+
+#para1{
     font-size: 0.6rem;
 }
+.forgot p{
+    font-size: 0.7rem;
+
 }
+.form{
+    margin:35px 20px 15px 20px;
+    padding: 20px 10px;
+    gap: 8px;
+}
+.copyright{
+    margin-top: 60px;
+    font-size: 0.7rem;
+}
+}
+
 

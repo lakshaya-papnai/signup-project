@@ -15,6 +15,8 @@ body {
     font-family: "Poppins", sans-serif;
     line-height: 1.2rem;
     overflow: hidden;
+    /* background:linear-gradient(to top left, #ffffff,lightcyan); */
+    background-color: white;
 }
 
 .flex {
@@ -83,13 +85,16 @@ body {
 .form {
     flex-direction: column;
     gap: 16px;
-    margin: 45px 100px;
+    margin:20px 100px;
     justify-content: center;
 
     text-align: center;
     animation: fadeup 1.3s;
-
-
+    box-shadow: 0 0 10px black;
+    padding: 50px 20px 35px 20px;
+    border-radius: 20px;
+    background:linear-gradient(to bottom right, #ffffff,lightcyan);
+    backdrop-filter: blur(8px);
 }
 
 .form h1 {
@@ -208,7 +213,7 @@ body {
 
 .copyright {
     text-align: center;
-    margin-top: 16vh;
+    margin-top: 35px;
     font-size: 0.8rem;
     color: rgb(95, 93, 93);
     opacity: 1;
