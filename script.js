@@ -8,35 +8,39 @@ password.addEventListener("input", ()=>{
     if(onlineid.value!="" && password.value!="" && password.value.length>=8 ){
         login.classList.remove("login1");
         login.classList.add("login2");
-       
-    }
+       }
+       else{
+        login.classList.remove("login2");
+        login.classList.add("login1");
+
+       }
 
 } );
 
-let eye=document.querySelector("#show-password");
-eye.addEventListener("click",()=>{
+// let eye=document.querySelector("#show-password");
+// eye.addEventListener("click",()=>{
        
-if(password.getAttribute("type")==="password") {
-    password.setAttribute("type","text");
-    eye.classList.remove("fa-eye");
-    eye.classList.add("fa-eye-slash");
+// if(password.getAttribute("type")==="password") {
+//     password.setAttribute("type","text");
+//     eye.classList.remove("fa-eye");
+//     eye.classList.add("fa-eye-slash");
   
-    }
-else{
-    password.setAttribute("type", "password");
-    eye.classList.remove("fa-eye-slash");
-    eye.classList.add("fa-eye");
+//     }
+// else{
+//     password.setAttribute("type", "password");
+//     eye.classList.remove("fa-eye-slash");
+//     eye.classList.add("fa-eye");
   
-    }
+//     }
    
 
-});
+// });
 
 
 
 login.addEventListener("click", ()=> {
    
-     if (onlineid.value.trim() !== "" && password.value.trim() !== "" && password.value.length>=8) {
+     if (onlineid.value != "" && password.value != "" && password.value.length>=8) {
         onlineid.disabled = true;
         password.disabled = true;
         document.querySelector("#login-word").innerText= "Logging In";

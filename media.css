@@ -1,0 +1,171 @@
+@media screen and (max-width:1156px) {
+    body{
+        background-color: yellow;
+    }
+    
+.form h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    
+}
+.nav-signin1 {
+    display: none;
+}
+
+#para1{
+    font-size: 0.8rem;
+}
+.forgot p{
+    font-size: 1rem;
+
+}
+.form{
+    margin:60px 20px;
+}
+
+}
+
+@media screen and (max-width:674px) {
+    body{
+        background-color: beige;
+    }
+    .right-side{
+        display: none;
+        width: 0vw;
+        height: 0vh;
+    }
+    .left-side{
+        height: 100vh;
+        width: 100vw;
+
+    }
+.form h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    
+}
+.nav-signin1 {
+    display: none;
+}
+
+#para1{
+    font-size: 0.8rem;
+}
+.forgot p{
+    font-size: 1rem;
+
+}
+.form{
+    margin:60px 20px;
+}
+
+}
+
+
+@media screen and (max-width:430px) {
+    body{
+        background-color: lightcyan;
+    }
+    .right-side{
+        display: none;
+        width: 0vw;
+        height: 0vh;
+    }
+    .left-side{
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .nav-logo {
+        animation: faderight 0.5s;
+       
+    }
+    .nav-logo img{
+        width: 190px;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    .nav-signin2 button {
+        margin-right: 12px;
+    }
+
+    
+.form h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    
+}
+.nav-signin1 {
+    display: none;
+}
+
+#para1{
+    font-size: 0.8rem;
+}
+.forgot p{
+    font-size: 1rem;
+
+}
+.form{
+    margin:65px 15px 0px 20px;
+   
+}
+.copyright{
+    margin-top: 90px;
+    font-size: 0.8rem;
+}
+}
+
+@media screen and (max-width:375px) {
+    body{
+        background-color: lightcyan;
+    }
+    .right-side{
+        display: none;
+        width: 0vw;
+        height: 0vh;
+    }
+    .left-side{
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .nav-logo img{
+        animation: faderight 0.5s;
+        margin: 10px 0 0 0;
+        width: 180px;
+        
+    }
+    .nav-signin2 button {
+        margin-right: 12px;
+        font-size: 0.6rem;
+        color: var(--green);
+
+    }
+
+    
+.form h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    
+}
+.nav-signin1 {
+    display: none;
+}
+
+#para1{
+    font-size: 0.8rem;
+}
+.forgot p{
+    font-size: 1rem;
+
+}
+.form{
+    margin:65px 10px 0px 20px;
+}
+.copyright{
+    margin-top: 90px;
+    font-size: 0.7rem;
+}
+}
+
